@@ -1,0 +1,15 @@
+.ad {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  background-color: azure;
+  width: 100vw;
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 100%;
+
+  .a {
+    margin-top: 1vw;
+  }
+}

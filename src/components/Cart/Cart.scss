@@ -1,0 +1,90 @@
+@media (min-width: 1026px) {
+  .cart {
+    position: absolute;
+    overflow-x: hidden;
+    right: 20px;
+    top: 80px;
+    z-index: 999;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 10px black;
+
+    h1 {
+      margin-bottom: 20px;
+      color: gray;
+      font-weight: 400;
+      font-size: 24px;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      margin-bottom: 10px;
+      img {
+        width: 80px;
+        height: 100px;
+        object-fit: cover;
+      }
+      button #deleteButton {
+        width: 10vw;
+        height: 10vh;
+        font-size: 2rem;
+        background: black;
+        color: red;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 5px white solid;
+      }
+    }
+
+    .details {
+      h1 {
+        font-size: 18px;
+        font-weight: 500;
+      }
+      p {
+        color: gray;
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+      .itemPrice {
+        color: blue;
+      }
+
+      .delete {
+        color: red;
+        font-size: 30px;
+        cursor: pointer;
+      }
+    }
+
+    .total {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      font-weight: 500;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .but {
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        font-size: 1rem;
+        background: #000;
+        color: white;
+        width: 100%;
+        margin-left: 10px;
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 5%;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
