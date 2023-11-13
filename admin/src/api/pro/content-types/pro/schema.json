@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pros",
+  "info": {
+    "singularName": "pro",
+    "pluralName": "pros",
+    "displayName": "pro"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "productImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
