@@ -4,18 +4,18 @@ import "../Contact/Contact.scss";
 import "../Contact/ContactUtil.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-faFacebook,
-faInstagram,
-faYoutube,
-faAmazon,
-faSnapchat,
+    faFacebook,
+    faInstagram,
+    faYoutube,
+    faAmazon,
+    faSnapchat,
 } from "@fortawesome/free-brands-svg-icons"
 
 const Contact = () => {
     return (
         <div className='contact'>
             <div className="left">
-                <img src="https://images.pexels.com/photos/3585802/pexels-photo-3585802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" srcSet="" />
+                <img src="https://images.pexels.com/photos/13779104/pexels-photo-13779104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" srcSet="" />
             </div>
 
             <div className="right">
@@ -49,11 +49,11 @@ const Contact = () => {
                     <div className="contactRight">
                         <div className="details">
                             <h2>Contact</h2>
-                            <h3>clothes.com@gmail.com</h3>
+                            <h3>mediquick@gmail.com</h3>
                         </div>
                         <div className="address">
                             <h2>Based in</h2>
-                            <h3>NYC City <br />United States</h3>
+                            <h3>Bhuj City <br />Bharat</h3>
                         </div>
                         <div className="social">
                             <Link className='link'>

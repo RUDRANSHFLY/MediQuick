@@ -98,13 +98,13 @@ const Navbar = () => {
                                 )
                         }
                         <div className='item'>
-                            <Link className='link' to='/products/4/'>Medicines</Link>
+                            <Link className='link' to='/products/1/'>Medicines</Link>
                         </div>
                         <div className='item'>
-                            <Link className='link' to='/products/5/'>SkinCare</Link>
+                            <Link className='link' to='/products/3/'>SkinCare</Link>
                         </div>
                         <div className='item'>
-                            <Link className='link' to='/products/3/'>Personal Care</Link>
+                            <Link className='link' to='/products/2/'>Personal Care</Link>
                         </div>
                     </div>
                     <div className='center'>
@@ -238,13 +238,13 @@ const Navbar = () => {
                 </div>
                 <div className='cat'>
                     <div className='item'>
-                        <Link onClick={() => { seticon(false) }} className='link' to='/products/4/'>Medicines</Link>
+                        <Link onClick={() => { seticon(false) }} className='link' to='/products/1/'>Medicines</Link>
                     </div>
                     <div className='item'>
-                        <Link onClick={() => { seticon(false) }} className='link' to='/products/5/'>SkinCare</Link>
+                        <Link onClick={() => { seticon(false) }} className='link' to='/products/3/'>SkinCare</Link>
                     </div>
                     <div className='item'>
-                        <Link onClick={() => { seticon(false) }} className='link' to='/products/3/'>Personal Care</Link>
+                        <Link onClick={() => { seticon(false) }} className='link' to='/products/2/'>Personal Care</Link>
                     </div>
 
                 </div>

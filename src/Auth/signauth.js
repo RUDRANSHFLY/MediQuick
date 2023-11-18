@@ -8,6 +8,7 @@ import Swal from 'sweetalert2'
 
 async function signauth(data) {
     const g = await checkUser(data.username);
+    debugger
     if (g == 0) {
         return false;
     } else {

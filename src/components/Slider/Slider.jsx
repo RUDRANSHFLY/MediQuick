@@ -5,8 +5,12 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faArrowLeft,
-  faArrowRight
+  faArrowRight,
+  faDna,
+  faHeartPulse,
+  faUserDoctor
 } from "@fortawesome/free-solid-svg-icons";
+import { faStethoscope, faCapsules, faThermometer, faVirusCovid } from '@fortawesome/free-solid-svg-icons';
 import "../Slider/Slider.scss";
 import "../Slider/SliderUtil.scss";
 
@@ -45,20 +49,28 @@ const Slider = () => {
 
   return (
     <div className='slider' onMouseEnter={nextSlide}>
-      <div className='container' style={{ transform: `translateX(-${currentSlide * 50}vw)` }}>
-        <img src={data[0]} />
+      <div className='container'>
+        <FontAwesomeIcon className='iconsHos' icon={faDna} fade size="2xl" style={{ "--fa-primary-color": "#c21919", "--fa-secondary-color": "#b40e0e", }} />
+        <FontAwesomeIcon className='iconsHos' icon={faStethoscope} shake size="2xl" />
+        <FontAwesomeIcon className='iconsHos' icon={faCapsules} spin size="2xl" />
+        <FontAwesomeIcon className='iconsHos' icon={faHeartPulse} beatFade size='2xl' />
+        <FontAwesomeIcon className='iconsHos' icon={faVirusCovid} spin size="2xl" />
+        <FontAwesomeIcon className='iconsHos' icon={faThermometer} size="2xl" flip />
+        <FontAwesomeIcon className='iconsHos' icon={faUserDoctor} bounce size="2xl" />
+
+        {/* <img src={data[0]} />
         <img src={data[1]} />
         <img src={data[2]} />
         <img src={data[3]} />
-        <img src={data[4]} />
+        <img src={data[4]} /> */}
       </div>
       <div className='icons'>
-        <div className='icon'>
+        {/* <div className='icon'>
           <FontAwesomeIcon icon={faArrowLeft} onClick={prevSlide} />
         </div>
         <div className='icon'>
           <FontAwesomeIcon icon={faArrowRight} onClick={nextSlide} />
-        </div>
+        </div> */}
       </div>
     </div>
   )

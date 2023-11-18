@@ -6,9 +6,9 @@ const AboutUs = () => {
     <div className='aboutus'>
       <div className="main">
         <div className="h">
-          <h1>Style Redefined, Your Way.</h1>
+          <h1>"Your Path to Wellness Starts Here: Find Healing in Every Click!".</h1>
           <h2>
-            Unveil Your Signature Style with Cloth.com
+            "Your Prescription for Health, Just a Click Away!"
           </h2>
         </div>
         <div className="company">
@@ -31,14 +31,14 @@ const AboutUs = () => {
       <div className="story">
         <div className='hs'>
           <h1>Story</h1>
-          <h2>Stories Woven in Every Stitch</h2>
+          <h2>"Empowering Health, One Click at a Time: Your Trusted Source for Wellness Solutions!"</h2>
         </div>
         <div className="bgimg">
           <img src="https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
         </div>
         <div className="storydesc">
           <p>
-            Amelia, an aspiring artist, stumbled upon Cloth.com. As she browsed through the curated collection, each garment seemed like a canvas waiting to be adorned. With a sense of anticipation, she selected a flowing dress, its vibrant colors echoing her creativity. When the package arrived, she felt a rush of excitement as she tried on the dress - it was as if her artistic spirit had found a new medium. With every step, Amelia felt her confidence soar, knowing that Cloth.com had not just delivered a dress, but a masterpiece that told her unique story.
+            Once upon a time in the quaint town of Wellnessville, there lived a young pharmacist named Olivia. Olivia was passionate about helping people lead healthier lives, and she dreamed of making medicines and wellness products easily accessible to everyone. One day, inspiration struck her like a bolt of lightning, and she decided to embark on a journey to create an online medicine-selling platform that would revolutionize the way people cared for their health.
           </p>
         </div>
       </div>

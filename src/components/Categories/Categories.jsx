@@ -12,7 +12,7 @@ const Categories = () => {
                     <img src="https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/c4162b4ec00938379d15b2719577457e.png?dim=96x0" alt="" srcSet="" />
                     <Link className='link' to='/products/3'>
                         <button>
-                            CHILDREN
+                            Personal Care
                         </button>
                     </Link>
                 </div>

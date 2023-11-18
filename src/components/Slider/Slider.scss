@@ -1,16 +1,21 @@
 .slider {
   height: 50vh;
   width: 100vw;
-  background-color: black;
+  background-color: grey;
   margin: auto;
   position: relative;
   overflow: hidden;
 
   .container {
-    width: 600vw;
     height: 50vh;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     transition: all 1s ease;
+
+    .iconsHos {
+      font-size: 10rem;
+    }
 
     img {
       padding-top: 5px;

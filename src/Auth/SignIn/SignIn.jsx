@@ -60,7 +60,7 @@ const SignIn = () => {
 
         <div className="left">
           <div className='up'>
-            <h2><FontAwesomeIcon icon={faPagelines} /> Cloth.com</h2>
+            <h2><FontAwesomeIcon icon={faPagelines} /> MediQuick.com</h2>
           </div>
           <div className='down'>
             <h1>Welcome Back </h1>

@@ -62,7 +62,7 @@ const Product = () => {
         <>
           <div className="left">
             <div className="mainImg">
-              <img src={process.env.REACT_APP_UPLOAD_URL + data?.attributes?.img?.data?.attributes?.url} alt="" srcSet="" />
+              <img src={data?.attributes?.img?.data?.attributes?.url} alt="" srcSet="" />
             </div>
           </div>
           <div className="right">
