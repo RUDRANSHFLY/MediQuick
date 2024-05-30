@@ -46,10 +46,14 @@ const Mcat = () => {
                 </Link>
             </div>
             <div className="cat">
-                <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/520acd31898-heart.png?dim=256x0" alt="" srcset="" />
+                <Link to='https://www.heart.org/'>
+                    <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/520acd31898-heart.png?dim=256x0" alt="" srcset="" />
+                </Link>
             </div>
             <div className="cat">
-                <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/9696ef00b0a-lifestyle.png?dim=256x0" alt="" srcset="" />
+                <Link to='https://www.who.int/europe/news-room/fact-sheets/item/a-healthy-lifestyle---who-recommendations'>
+                    <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/9696ef00b0a-lifestyle.png?dim=256x0" alt="" srcset="" />
+                </Link>
             </div>
         </div>
     )

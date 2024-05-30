@@ -65,12 +65,12 @@ const Slider = () => {
         <img src={data[4]} /> */}
       </div>
       <div className='icons'>
-        {/* <div className='icon'>
+        <div className='icon'>
           <FontAwesomeIcon icon={faArrowLeft} onClick={prevSlide} />
         </div>
         <div className='icon'>
           <FontAwesomeIcon icon={faArrowRight} onClick={nextSlide} />
-        </div> */}
+        </div>
       </div>
     </div>
   )

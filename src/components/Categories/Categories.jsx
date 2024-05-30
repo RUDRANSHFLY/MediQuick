@@ -22,7 +22,7 @@ const Categories = () => {
 
                     <Link className='link' to='/products/2'>
                         <button>
-                            WOMEN
+                            SkinCare
                         </button>
                     </Link>
                 </div>
@@ -44,9 +44,9 @@ const Categories = () => {
                         <div className="row cate">
                             <img src="https://images.pexels.com/photos/286951/pexels-photo-286951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" srcSet="" />
 
-                            <Link className='link' to='/products/4/'>
+                            <Link className='link' to='/products/1/'>
                                 <button>
-                                    MEN
+                                    Medicines
                                 </button>
                             </Link>
                         </div>
@@ -54,7 +54,7 @@ const Categories = () => {
                     <div className="col">
                         <div className="row cate">
                             <img src="https://images.pexels.com/photos/3993398/pexels-photo-3993398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" srcSet="" />
-                            <Link className='link' to='/products/2'>
+                            <Link className='link' to='https://skknbykim.com/'>
                                 <button>ACCESORIES</button>
                             </Link>
                         </div>
@@ -63,8 +63,8 @@ const Categories = () => {
                 </div>
                 <div className="row cate">
                     <img src="https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/01abb07c5b233f90b2cd0b64a7ebccee.png?dim=96x0" alt="" srcSet="" />
-                    <Link className='link' to='/products/3'>
-                        <button>SHOES</button>
+                    <Link className='link' to='https://www.who.int/'>
+                        <button>info</button>
                     </Link>
                 </div>
 

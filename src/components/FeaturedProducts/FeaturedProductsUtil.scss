@@ -1,15 +1,28 @@
-@media (max-width:768px) {
-    .featuredProducts{
-        .top{
-            padding-top: 2vw;
-            text-align: center;
-            display: block;
-            p{
-                padding-top: 2vw;
-                padding-left: 2vw;
-                padding-right: 2vw;
-                color: aqua;
-            }
-        }
+@media (max-width: 768px) {
+  .featuredProducts {
+    #mainDiv {
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
     }
+    .div {
+      width: 200px;
+      height: 200px;
+      margin: auto;
+      margin-bottom: 10px;
+      background-color: grey;
+    }
+    .top {
+      padding-top: 2vw;
+      text-align: center;
+      display: block;
+      p {
+        padding-top: 2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        color: aqua;
+      }
+    }
+  }
 }

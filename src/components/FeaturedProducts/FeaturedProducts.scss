@@ -1,36 +1,40 @@
-.featuredProducts{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    background-image: url("https://images.pexels.com/photos/8832898/pexels-photo-8832898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-repeat: no-repeat;
-    background-size: cover;
+.featuredProducts {
+  width: 100vw;
+  height: 70vh;
 
-    .top{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 50px;
-        
-        h1{
-            flex: 2;
-            color: white;
-            text-transform: capitalize;
-        }
+  #mainDiv {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .div {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+  }
 
-        p{
-            flex: 3;
-            color: grey;
-        }
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
 
+    h1 {
+      flex: 2;
+      color: white;
+      text-transform: capitalize;
     }
 
-
-    .bottom{
-        display: flex;
-        max-width: 100%;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 70px;
+    p {
+      flex: 3;
+      color: grey;
     }
+  }
 
+  .bottom {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+  }
 }
